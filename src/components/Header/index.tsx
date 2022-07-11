@@ -341,9 +341,9 @@ export default function Header() {
     <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
       Vote
     </StyledNavLink>*/}
-      <StyledAbsoluteLink href={'https://pool.lz.finance'}></StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://swap.lz.finance'}>/StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://governance.bscex.org'}></StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://t.me/SafeProInu'}>Telegram</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://twitter.com/SafeProInuBSC'}>Twitter</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://mudra.website/?certificate=yes&type=0&lp=0xb4b50d2c122853b4f96572e7ca8e479a979168f9'}>Liquidity</StyledAbsoluteLink>
     </HeaderLinks>
   )
 
