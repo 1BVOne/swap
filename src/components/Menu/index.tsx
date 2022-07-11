@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Bscex/bscex-swap-interface'
+const CODE_LINK = 'https://bscscan.com/address/0x204e43c97cf35349dbc1d1ae148c7aed4b4cc25e#code'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -105,25 +105,25 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://bscex.org/">
+          <MenuItem id="link" href="https://safeproinu.com/assets/files/RoadMap-SPI2022.pdf">
             <Info size={14} />
-            About
+            RoadMap
           </MenuItem>
-          <MenuItem id="link" href="https://bscex.org/docs/">
+          <MenuItem id="link" href="https://safeproinu.com/assets/files/WhitePaper-SPI2022.pdf">
             <BookOpen size={14} />
-            Docs
+            WhitePaper
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/9r8YZ3Ys">
+          <MenuItem id="link" href="https://t.me/SafuProInu">
             <MessageCircle size={14} />
-            Discord
+            Telegram
           </MenuItem>
-          <MenuItem id="link" href="https://pancakeswap.info/">
+          <MenuItem id="link" href="https://poocoin.app/tokens/0x204e43c97cf35349dbc1d1ae148c7aed4b4cc25e">
             <PieChart size={14} />
-            Analytics
+            Chart
           </MenuItem>
           {/*account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
